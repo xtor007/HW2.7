@@ -27,7 +27,7 @@
                                                 <state key="normal" image="pencil" catalog="system"/>
                                             </button>
                                             <connections>
-                                                <segue destination="mPH-oy-JGy" kind="custom" id="AD4-Xh-ZXU"/>
+                                                <segue destination="mPH-oy-JGy" kind="custom" identifier="toColor" id="AD4-Xh-ZXU"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -129,7 +129,8 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="custom" id="niS-mN-tPn"/>
+                                    <action selector="under:" destination="mPH-oy-JGy" eventType="touchUpInside" id="1tg-SG-KEY"/>
+                                    <segue destination="BYZ-38-t0r" kind="custom" identifier="fromColor" id="niS-mN-tPn"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -50,9 +50,18 @@ class ColorVC: UIViewController {
         blueCount.resignFirstResponder()
     }
     
-    //работа с енткром
+    //работа с ентером
     
+    @IBAction func under(_ sender: Any) {
+        self.performSegue(withIdentifier: "fromColor", sender: 1)
+    }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let newVC:ViewController = segue.destination as! ViewController
+        newVC.view.backgroundColor = UIColor(displayP3Red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        ColorC.red = Float(redCount.text!)!
+        ColorC.green = Float(greenCount.text!)!
+        ColorC.blue = Float(blueCount.text!)!
+    }
     
 }
