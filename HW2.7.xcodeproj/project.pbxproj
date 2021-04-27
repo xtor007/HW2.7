@@ -56,15 +56,55 @@
 		FF7FE8842638929B00FA5B20 /* HW2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				FF7FE8852638929B00FA5B20 /* AppDelegate.swift */,
-				FF7FE8872638929B00FA5B20 /* SceneDelegate.swift */,
-				FF7FE8892638929B00FA5B20 /* ViewController.swift */,
-				FF7FE88B2638929B00FA5B20 /* Main.storyboard */,
-				FF7FE88E263892A100FA5B20 /* Assets.xcassets */,
-				FF7FE890263892A100FA5B20 /* LaunchScreen.storyboard */,
-				FF7FE893263892A100FA5B20 /* Info.plist */,
+				FF7FE89E2638935700FA5B20 /* Resourses */,
+				FF7FE89D2638934300FA5B20 /* View */,
+				FF7FE89C2638931800FA5B20 /* Control */,
+				FF7FE89B263892D700FA5B20 /* Supported files */,
+				FF7FE89A263892CB00FA5B20 /* Model */,
 			);
 			path = HW2.7;
+			sourceTree = "<group>";
+		};
+		FF7FE89A263892CB00FA5B20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF7FE89B263892D700FA5B20 /* Supported files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FE8852638929B00FA5B20 /* AppDelegate.swift */,
+				FF7FE893263892A100FA5B20 /* Info.plist */,
+			);
+			path = "Supported files";
+			sourceTree = "<group>";
+		};
+		FF7FE89C2638931800FA5B20 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FE8892638929B00FA5B20 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		FF7FE89D2638934300FA5B20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FE8872638929B00FA5B20 /* SceneDelegate.swift */,
+				FF7FE88B2638929B00FA5B20 /* Main.storyboard */,
+				FF7FE890263892A100FA5B20 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF7FE89E2638935700FA5B20 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FE88E263892A100FA5B20 /* Assets.xcassets */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AF68Y4A9MG;
-				INFOPLIST_FILE = HW2.7/Info.plist;
+				INFOPLIST_FILE = "HW2.7/Supported files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AF68Y4A9MG;
-				INFOPLIST_FILE = HW2.7/Info.plist;
+				INFOPLIST_FILE = "HW2.7/Supported files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
