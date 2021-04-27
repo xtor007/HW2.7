@@ -52,9 +52,9 @@ class ColorVC: UIViewController {
     
     //работа с ентером
     
-    @IBAction func under(_ sender: Any) {
-        self.performSegue(withIdentifier: "fromColor", sender: 1)
-    }
+//    @IBAction func under(_ sender: Any) {
+//        self.performSegue(withIdentifier: "fromColor", sender: 1)
+//    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let newVC:ViewController = segue.destination as! ViewController

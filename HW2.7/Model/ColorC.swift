@@ -8,7 +8,7 @@
 import Foundation
 
 class ColorC {
-    static var red: Float = 0;
-    static var green: Float = 0;
-    static var blue: Float = 0;
+    static var red: Float = 0.5;
+    static var green: Float = 0.5;
+    static var blue: Float = 0.5;
 }

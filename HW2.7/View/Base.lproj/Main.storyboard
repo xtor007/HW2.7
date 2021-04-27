@@ -25,9 +25,12 @@
                                                 <rect key="frame" x="341" y="11" width="18" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="pencil" catalog="system"/>
+                                                <connections>
+                                                    <action selector="edit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bvs-ZP-YMh"/>
+                                                </connections>
                                             </button>
                                             <connections>
-                                                <segue destination="mPH-oy-JGy" kind="custom" identifier="toColor" id="AD4-Xh-ZXU"/>
+                                                <segue destination="mPH-oy-JGy" kind="custom" identifier="toColor" id="oDd-hU-ldO"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
